@@ -1,0 +1,516 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+@import url('https://fonts.cdnfonts.com/css/reikna');
+
+
+html {
+    height: 100%; 
+    font-family: 'Avenir', sans-serif;
+}
+
+body {
+    margin: 0; 
+    height: 100%;
+    background-image: url(../img/font.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#frstlogo {
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+}
+
+#scndlogo {
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    height: 174px;
+}
+
+#frstimage {
+    margin-top: 3%;
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.home1 {
+    height: 247px;
+}
+
+
+.bigm {
+    width: 100%;
+    text-align: center;
+}
+
+.bigm h1 {
+    color: white;
+    font-size: 40px;
+    font-family: 'Avenir', sans-serif;
+    text-align: center;
+    height: 12px;
+    margin-top: 0;
+}
+
+#draw {
+    margin-top: -230px;
+    padding-bottom: 23px;
+    margin-right: -823px;
+    height: 220px;
+    z-index: 77777;
+    position: relative;
+}
+
+.feuilles {
+    width: 100%;
+    margin-top: -335px;
+    display: flex;
+}
+
+#draw2 {
+    height: 387px;
+    transform: rotate(351deg);
+    margin-right: 23%;
+    margin-left: 425px;
+    margin-top: -3%;
+}
+
+#draw3 {
+    height: 520px;
+    transform: rotate(22deg);
+    margin-top: -370px;
+    margin-left: 12%;
+}
+
+#draw4 {
+    height: 50px;
+}
+
+.bigm h3 {
+    color: white;
+    font-size: 26px;
+    height: 12px;
+}
+
+.bigm p {
+    color: white;
+    margin-top: 0%;
+    font-size: 14px;
+}
+
+.one {
+    color: #F7A64B;
+}
+
+.two {
+    color: #FF81B8;
+}
+
+
+.slogan {
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin-top: 4%;
+}
+
+.yellowb {
+    background: linear-gradient(90deg, #FCC045, #F4964F);
+    display: inline-block;
+    padding: 20px;
+    border-radius: 64px;
+    font-size: 28px;
+}
+
+.yellowb h1 {
+    margin: 0;
+    color: white;
+    font-size: 21.6px;
+    padding-left: 45px;
+    padding-right: 45px;
+}
+
+.slogan p {
+    color: white;
+    font-size: 20px;
+}
+
+.btn {
+    text-align: center;
+}
+
+.button {
+    text-align: center;
+    margin-top: 22px;
+}
+
+.disc {
+    background: none;
+    border: 1px solid white;
+    padding: 14px 40px; 
+    border-radius: 9px;
+    font-family: avenir;
+    color: white;
+    font-size: 31px;
+    transition: padding 0.3s; 
+}
+
+.disc:hover {
+    padding: 18px 45px; 
+}
+
+
+
+.arrow {
+    height: 30px;
+    text-align: center;
+    margin-top: 26px;
+}
+
+
+.choice {
+    margin-top: 80px;
+}
+
+.choice .bigm h1 {
+    max-width: 46%;
+    margin: 0 auto;
+}
+
+.cadre {
+    text-align: center;
+    display: block;
+    padding-top: 7%;
+}
+
+.ybtn {
+    text-align: center;
+    padding-top: 7%;
+}
+
+.yb1 {
+    background: linear-gradient(90deg, #FCC045, #F4964F);
+    border: none;
+    border-radius: 11px;
+    font-size: 28px;
+    padding: 17px;
+    color: honeydew;
+}
+
+.yb2 {
+    background: linear-gradient(90deg, #FCC045, #F4964F);
+    border: none;
+    border-radius: 11px;
+    font-size: 28px;
+    padding: 17px;
+    color: honeydew;
+}
+
+.yb1, .yb2 {
+    margin-right: 10px; 
+    margin-left: 10px; /
+}
+
+.yb1 a {
+    text-decoration: none;
+    color: white;
+}
+
+.yb2 a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.service {
+    margin-top: 80px;
+}
+
+.bigs {
+    color: white;
+    font-size: 50px;
+}
+
+.bigs h1 {
+    font-size: 56px;
+}
+
+.bigs span {
+    font-weight: 100;
+}
+
+
+
+.image, img {
+    height: 219px;
+}
+
+.cards {
+    text-align: center;
+    /* margin-left: 14%; */
+    margin-top: -60px;
+    margin: auto 0;
+    text-align: -webkit-center;
+    margin-top: -63px;
+    position: relative;
+    z-index: 9;
+}
+
+#card1 {
+    background: white;
+    width: 43%;
+    display: flex;
+    height: 219px;
+}
+
+.txt h1 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.txt p {
+    /* text-align: left; */
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+#card2 {
+    background: white;
+    width: 43%;
+    display: flex;
+    height: 219px;
+    margin-top: 1%;
+    z-index: 9;
+    position: relative;
+}
+
+.txt h1 {
+    text-align: left;
+    margin-left: 5%;
+}
+
+.txt p {
+    /* text-align: left; */
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+}
+
+
+#card3 {
+    background: white;
+    width: 43%;
+    display: flex;
+    height: 219px;
+    margin-top: 1%;
+    z-index: 9;
+    position: relative;
+}
+
+.txt h1 {
+    text-align: left;
+    margin-left: 10%;
+    font-size: 27px;
+    margin-bottom: 0;
+    color: #575756;
+}
+
+.txt p {
+    /* text-align: left; */
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: justify;
+    color: #575756;
+}
+
+.txt span {
+    color: #F9C145;
+    font-family: 'Reikna', sans-serif;
+    font-weight: 100;
+}
+
+
+
+
+#card4 {
+    background: white;
+    width: 43%;
+    display: flex;
+    height: 219px;
+    margin-top: 1%;
+    position: relative;
+    z-index: 9;
+}
+
+
+
+@media (max-width: 809px) {
+    .home1 {
+        height: 157px;
+        margin-bottom: 12%;
+    }
+
+
+    .bigm h1 {
+    color: white;
+    font-size: 18px;
+    font-family: 'Avenir', sans-serif;
+    text-align: center;
+    height: 12px;
+    margin-top: 0;
+    }
+
+    .logo {
+        height: 80px;
+        align-items: center;
+        text-align: center;
+        color: white;
+        margin-bottom: 22%;
+    }
+
+    .bigm h3 {
+        color: white;
+        font-size: 19px;
+        height: 12px;
+    }
+
+    .bigm p {
+        color: white;
+        margin-top: 0%;
+        font-size: 12px;
+        width: 58%;
+        margin: auto;
+        margin-bottom: 22%;
+    }
+
+    .yellowb {
+        background: linear-gradient(90deg, #FCC045, #F4964F);
+        display: inline-block;
+        padding: 8px;
+        border-radius: 64px;
+        font-size: 10px;
+        margin-left: 18px;
+        margin-right: 18px;
+    }
+
+    .yellowb h1 {
+        margin: 0;
+        color: white;
+        font-size: 11px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .slogan p {
+        color: white;
+        font-size: 11px;
+        margin-right: 25px;
+        margin-left: 25px;
+    }
+
+    .button {
+        text-align: center;
+        margin-top: 9%;
+    }
+
+    .disc {
+        background: none;
+        border: 1px solid white;
+        padding: 14px 40px;
+        border-radius: 9px;
+        font-family: avenir;
+        color: white;
+        font-size: 11px;
+        transition: padding 0.3s;
+        margin-top: 19%;
+    }
+
+
+    .arrow {
+        height: 19px;
+        text-align: center;
+        margin-top: 13px;
+    }
+
+
+    .choice .bigm h1 {
+        max-width: 73%;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+
+    .ybtn {
+        text-align: center;
+        padding-top: 30%;
+    }
+
+    .yb1, .yb2 {
+        margin-right: 6px;
+        margin-left: 6px;
+        font-size: 11px;
+    }
+
+    .bigs h1 {
+        font-size: 24px;
+        position: relative;
+        z-index: 99999999999;
+        margin-bottom: 0;
+    }
+
+    #draw {
+        margin-top: -82px;
+        margin-right: -287px;
+        height: 95px;
+        z-index: 77777;
+        position: relative;
+    }
+
+    #card1, #card3 {
+        background: white;
+        width: 328.5px;
+        display: block;
+        height: 422px;
+    }
+
+    #card2, #card4 {
+        background: white;
+        width: 328.5px;
+        display: block;
+        height: 459px;
+        margin-top: 7%;
+        z-index: 9;
+        position: relative;
+    }
+
+    .feuilles {
+        display: none;
+    }
+
+    #draw2 {
+        height: 387px;
+        transform: rotate(351deg);
+        margin-right: 23%;
+        margin-left: 10px;
+        margin-top: -9%;
+    }
+
+    #draw3 {
+        height: 520px;
+        transform: rotate(22deg);
+        margin-top: -370px;
+        margin-left: -38%;
+    }
+}

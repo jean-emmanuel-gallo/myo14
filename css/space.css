@@ -1,0 +1,285 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+@import url('https://fonts.cdnfonts.com/css/reikna');
+
+html, body {
+    height: 100%; 
+    font-family: 'Avenir', sans-serif;
+    margin: 0;
+    background-image: url(../img/font.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+#home {
+    display: flex;
+    background-image: url(/img/Illustrations-03.png);
+    height: 100%;
+    background-size: 61pc;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: 360px;
+    margin-left: 22%;
+    margin-bottom: 15%;
+}
+
+#hello {
+    color: white;
+    margin-top: 4%;
+    padding-right: 8%;
+    margin-left: -10%;
+}
+
+#hello h1 {
+    font-weight: 100;
+    font-size: 53px;
+}
+
+#hello p {
+    margin-top: 0;
+    font-size: 27px;
+}
+
+.btc2 {
+    background: none;
+    border-color: white !important;
+    color: white;
+    border-radius: 205px;
+    box-shadow: none;
+    font-size: 18px;
+    padding: 1%;
+    border: 2px solid #ffffff;
+}
+
+.btc2:hover {
+    background: #575756;
+    border-color: #575756 !important;
+    color: white;
+    border-radius: 205px;
+    box-shadow: none !important;
+    font-size: 18px;
+    padding: 1%;
+    border: 2px solid #575756;
+}
+
+
+.button-container {
+    text-align: left;
+    margin-bottom: 145px;
+}
+
+/*DÉBUT BOUTON LNAV*/
+.arrow-container {
+    text-align: center;
+    margin-right: 40%;
+}
+
+.arrow-container img {
+    height: 111px;
+}
+
+.arrow-container h1 {
+    font-size: 25px !important;
+    margin-top: 0;
+    font-weight: 100;
+}
+
+.link-list ul {
+    list-style: none;
+    padding-left: 0%;
+}
+
+.link-list ul li {
+    font-family: 'Avenir', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 3%;
+}
+
+.link-list ul li span {
+    color: #F9C145;
+}
+
+.link-list ul li a {
+    color: white;
+    text-decoration: none;
+}
+/*FIN BOUTON LNAV*/
+
+
+
+
+.profile {
+margin-top: 5%;
+}
+
+
+
+.image-container {
+    position: relative;
+    border-radius: 200px;
+    overflow: hidden;
+}
+
+#userp {
+    width: 181px;
+    height: 165px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.change-photo {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.change-photo:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.logo {
+    height: 119px;
+    margin-top: 6%;
+    margin-left: 10%;
+    margin-right: 6%;
+}
+
+
+
+
+
+/*DÉBUT PAGE COTATION*/
+
+#cotation {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#formulaire {
+    width: 88%;
+    padding: 20px;
+    box-sizing: border-box;
+    padding-left: 49%;
+}
+
+
+#formulaire h1 {
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    font-size: 63px;
+    margin-bottom: 20px;
+}
+
+#formulaire p {
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+#formulaire span {
+    color: #F9C145;
+    font-family: 'Reikna', sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+    margin-right: 10px;
+}
+
+
+#formulaire p {
+    width: 73%;
+    color: white;
+    font-family: 'Avenir', sans-serif;
+    font-size: 14px;
+}
+
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    border: 2px solid white;
+    background: none;
+    width: 30%;
+    height: 36px;
+    color: white !important;
+    margin-left: 49%;
+    border-radius: 51px;
+    height: 67px;
+    margin-bottom: 36px;
+}
+
+input[type="text"]::placeholder,
+input[type="tel"]::placeholder,
+input[type="email"]::placeholder,
+textarea::placeholder {
+    color: white;
+    padding-left: 2%;
+}
+
+button {
+    border: 2px solid white;
+    background: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+#fusee {
+    position: absolute;
+    bottom: 5%;
+    transition: bottom 0.5s ease;
+    height: 682px;
+    pointer-events: none; 
+}
+
+#cotation.active #fusee {
+    bottom: 21%;
+    transition: bottom 5s ease; /
+
+}
+
+
+/*FIN PAGE COTATION*/

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abonnement</title>
+    <link rel="stylesheet" href="css/abo.css">
+</head>
+<body>
+
+
+    <main>
+        <section class="title">
+            <h1>L'ABONNEMENT MY ORION</h1>
+            <h2>CHOISISSEZ VOTRE FORFAIT</h2>
+        </section>
+
+
+        <section class="cards">
+            <div id="card1">
+                <div id="cardtitle1">
+                    <h3>Abonnement</h3>
+                    <h1>M E N S U E L</h1>
+                </div>
+                <div class="txt">
+                    <h2>TARIF :</h2>
+                    <h1>32 <sup>.00 €</sup><span>/ mois</span></h1>
+                    <p>Facturé mensuellement</p>
+                </div>
+                <div class="txt2">
+                    <h1>BONNE NOUVELLE</h1>
+                    <p>Cet abonnement peut être déclaré en frais professionnel.</p>
+                    <h2>•</h2>
+                    <p>Il vous donne également accès au crédit d'impôt (My Elearning) : <span class="p2">Soit 18,60€/mois après crédit d'impôt</span></p>
+                </div>
+                <div class="abo">
+                    <button><a class="btn" href="">S'ABONNER</a></button>
+                </div>
+            </div>
+            <div id="card2">
+                <div id="cardtitle1">
+                    <h3>Abonnement</h3>
+                    <h1>A N N U E L</h1>
+                </div>
+                <div class="txt">
+                    <h2>TARIF :</h2>
+                    <h1>320 <sup>.00 €</sup><span>/ an</span></h1>
+                    <p>Facturé annuellement</p>
+                </div>
+                <div class="txt2">
+                    <h1>BONNE NOUVELLE</h1>
+                    <p>Cet abonnement peut être déclaré en frais professionnel.</p>
+                    <h2>•</h2>
+                    <p>Il vous donne également accès au crédit d'impôt (My Elearning) : <span class="p2">Soit 159€/mois après crédit d'impôt</span></p>
+                </div>
+                <div class="abo">
+                    <button><a class="btn" href="">S'ABONNER</a></button>
+                </div>
+            </div>
+        </section>
+        <img class="il" src="img/Illustrations-01.png" alt="">
+
+        <section id="form1">
+            <div id="formtitle">
+                <h1>POUR VALIDER VOTRE INSCRIPTION</h1>
+                <h3>MERCI DE REMPLIR LE FORMULAIRE</h3>
+            </div>
+            <div id="formulem">
+                <p>Formule sélectionnée :</p>
+                <h1>ABONNEMENT MENSUEL</h1>
+                <a href="abo.html">Changer de formule</a>
+            </div>
+
+            <form action="#" method="post">
+                <input type="text" placeholder="Nom" id="nom" name="nom" required>
+                <input type="text" placeholder="Prénom" id="prenom" name="prenom" required>
+                <input type="tel" id="telephone" placeholder="Téléphone" name="telephone" pattern="[0-9]{10}" required>
+                <input type="email" placeholder="E-mail" id="email" name="email" required>
+                
+                <div class="accept-buttons">
+                    <!-- <label><input type="checkbox" name="contrat" required> J'accepte le contrat</label> -->
+                    <label><input type="checkbox" name="conditions" required> J'accepte les conditions d'engagement</label>
+                </div>
+            
+                <input type="submit" value="JE M'ABONNE">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

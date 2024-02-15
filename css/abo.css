@@ -1,0 +1,682 @@
+@import url('https://fonts.cdnfonts.com/css/avenir');
+
+
+html {
+    height: 100%; 
+    font-family: 'Avenir', sans-serif;
+}
+
+body {
+    margin: 0; 
+    height: 100%;
+    background-image: url(../img/font.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*ICI JE COMMENCE LA PREMIERE PARTIE, QUI EST LA PARTIE CARDS*/
+.title {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.title h1 {
+    font-size: 58px;
+    height: 25px;
+    font-weight: 99900;
+    margin-top: 0;
+}
+
+.title h2 {
+    height: 25px;
+    font-weight: 100;
+    font-size: 44px;
+}
+/*ICI SE TERMINE LA PARTIE CONCERNANT LES DEUX GROS TITRES D'EN-TÊTE */
+
+
+/*ICI COMMENCE LA PREMIERE PARTIE, QUI EST LA PARTIE CARDS*/
+/*PARAMÈTRES DES CARDS GÉNÉRAUX */
+.cards {
+    background-color: none;
+    width: 100%;
+    text-align: -webkit-center;
+    display: flex;
+    justify-content: center;
+}
+
+/*CARD1*/
+
+#card1 {
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    border-bottom-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    margin-top: 8%;
+    margin-right: 3%;
+    height: 591px;
+}
+
+#cardtitle1 {
+    background: linear-gradient(90deg,#A57FF5, #7A6FE0);
+    color: white;
+    padding: 2px;
+}
+
+#cardtitle1 h3 {
+    margin-bottom: 0;
+}
+
+#cardtitle1 h1 {
+    font-weight: 100;
+    font-size: 37px;
+    margin-top: 0;
+}
+
+.txt {
+    padding-top: 14%;
+}
+.txt h2 {
+    color: #8E77E9;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.txt h1 {
+    font-size: 74px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #454545;
+}
+
+sup {
+    font-size: smaller;
+    vertical-align: super;
+    font-size: 18px;
+    color: #454545;
+}
+
+span  {
+        font-size: 18px;
+        margin-left: -55px;
+        color: #8E77E9;
+}
+
+p {
+    margin-top: 0;
+    color: #454545;
+}
+
+.txt2 {
+    width: 100%;
+}
+
+.txt2 h1 {
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #8E77E9;
+    border-radius: 25px;
+    text-align: -webkit-center;
+    color: #8E77E9;
+    /* margin-right: 27%; */
+    /* margin-left: 27%; */
+    padding: 0px;
+    width: 37%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.txt2 p {
+    font-size: 12px;
+    color: #454545;
+    margin-bottom: 0;
+}
+
+.txt2 h2 {
+    font-size: 13px;
+    color: #8E77E9;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.p2 {
+    font-size: 12px;
+    color: #8E77E9;
+    margin-left: 0;
+}
+
+
+.abo {
+    margin-top: 25px;
+    display: inline-grid;
+    width: 100%;
+}
+
+button {
+    width: 42%;
+    margin: 0px auto;
+    font-size: 20px;
+    height: 117%;
+    background: #8e77e9;
+    box-shadow: none;
+    border-radius: 8px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 3%;
+}
+
+
+.btn {
+    width: 42%;
+    margin: 0px auto;
+    font-size: 20px;
+    height: 117%;
+    background: #8e77e9;
+    box-shadow: none;
+    border-radius: 8px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 3%;
+    text-decoration: none;
+}
+
+
+
+
+.il {
+    height: 263px;
+    transform: rotateY(180deg);
+    margin-left: 14%;
+    margin-top: -9%;
+}
+/*FIN CARD1*/
+
+
+
+
+
+/*CARD2*/
+#card2 {
+    background-color: white;
+    width: 25%;
+    text-align: center;
+    border-bottom-left-radius: 15px 15px;
+    border-bottom-right-radius: 15px 15px;
+    margin-top: 8%;
+    margin-left: 3%;
+    height: 591px;
+}
+
+#card2 #cardtitle1 {
+    background: linear-gradient(90deg, #FCC045, #F4964F);
+    color: white;
+    padding: 2px;
+}
+
+#card2 #cardtitle1 h3 {
+    margin-bottom: 0;
+}
+
+#card2 #cardtitle1 h1 {
+    font-weight: 100;
+    font-size: 37px;
+    margin-top: 0;
+}
+
+#card2 .txt {
+    padding-top: 14%;
+}
+#card2 .txt h2 {
+    color: #FCC045;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#card2 .txt h1 {
+    font-size: 74px;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #454545;
+}
+
+#card2 sup {
+    font-size: smaller;
+    vertical-align: super;
+    font-size: 18px;
+    color: #454545;
+}
+
+#card2 span  {
+        font-size: 18px;
+        margin-left: -55px;
+        color: #FCC045;
+}
+
+#card2 p {
+    margin-top: 0;
+    color: #454545;
+}
+
+#card2 .txt2 {
+    width: 100%;
+}
+
+#card2 .txt2 h1 {
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid #FCC045;
+    border-radius: 25px;
+    text-align: -webkit-center;
+    color: #FCC045;
+    /* margin-right: 27%; */
+    /* margin-left: 27%; */
+    padding: 0px;
+    width: 37%;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+#card2 .txt2 p {
+    font-size: 12px;
+    color: #454545;
+    margin-bottom: 0;
+}
+
+#card2 .txt2 h2 {
+    font-size: 13px;
+    color: #FCC045;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#card2 .p2 {
+    font-size: 12px;
+    color: linear-gradient(90deg, #FCC045, #F4964F);;
+    margin-left: 0;
+}
+
+
+#card2 .abo {
+    margin-top: 25px;
+    display: inline-grid;
+    width: 100%;
+}
+
+#card2 button {
+    width: 42%;
+    margin: 0px auto;
+    font-size: 20px;
+    height: 117%;
+    background: linear-gradient(90deg, #FCC045, #F4964F);;
+    box-shadow: none;
+    border-radius: 8px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 3%;
+    transition: 0.3s;
+}
+
+
+#card2 button:hover {
+    width: 43%;
+    margin: 0px auto;
+    font-size: 20px;
+    height: 120%;
+    background: linear-gradient(90deg, #FCC045, #F4964F);;
+    box-shadow: none;
+    border-radius: 8px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 3%;
+    transition: 0.3s;
+}
+
+#card2 .btn {
+    width: 42%;
+    margin: 0px auto;
+    font-size: 20px;
+    height: 117%;
+    background: linear-gradient(90deg, #FCC045, #F4964F);;
+    box-shadow: none;
+    border-radius: 8px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    color: white;
+    padding: 3%;
+    text-decoration: none;
+}
+
+
+
+
+/*FIN CARD2*/
+/*ICI SE TERMINE LA PREMIERE PARTIE, QUI EST LA PARTIE CARDS*/
+
+
+
+
+/*DÉBUT PARTIE CONCERNANT LES FORMULAIRES*/
+
+/*FORMULAIRE MENSUEL*/
+#form1 {
+    margin-top: 300px;
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+#formtitle {
+    color: white;
+}
+
+#formtitle h1 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+#formtitle h3 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+#formulem {
+    margin-top: 130px;
+    text-align: center;
+}
+
+#formulem p {
+    color: white;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+#formulem h1 {
+    color:#8E77E9;
+    background-color: white;
+    width: 20%;
+    margin: 0 auto;
+    padding: 11px;
+    border-radius: 43px;
+    margin-bottom: 15px;
+}
+
+#formulem a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    transition: 1s;
+}
+
+#formulem a:hover {
+    font-size: 16px;
+    transition: 1s;
+}
+
+
+
+form {
+    max-width: 856px;
+    margin: 20px auto;
+    /* padding: 20px; */
+    border-radius: 115px;
+    width: 100%;
+    padding-bottom: 300px;
+}
+input[type="text"], input[type="email"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 26px;
+    border: 1px solid #ccc;
+    border-radius: 55px;
+    background: none;
+}
+input[type="submit"] {
+    margin-top: 55px;
+    background-color: #8e77e9;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Avenir', sans-serif;
+    transition: 0.3s;
+}
+input[type="submit"]:hover {
+    background-color: #8e77e9;
+    margin-top: 55px;
+    background-color: #8e77e9;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Avenir', sans-serif;
+    transition: 0.3s;
+}
+.accept-buttons {
+    display: grid;
+    justify-content: space-between;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Style CSS pour modifier la couleur du placeholder en blanc */
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder {
+    color: white; /* Couleur du placeholder en blanc */
+}
+
+
+label {
+    text-align: left;
+}
+
+
+/*FIN FORMULAIRE MENSUEL*/
+
+
+/*FIN PARTIE CONCERNANT LES FORMULAIRES*/
+
+
+
+@media (max-width: 809px) {
+    .title {
+        margin-top: 34px;
+        margin-bottom: 32%;
+    }
+
+    .title h1 {
+        font-size: 25px;
+        height: 7px;
+        margin-top: 0;
+    }
+
+    .title h2 {
+        height: 25px;
+        font-weight: 100;
+        font-size: 19px;
+        margin-top: 40%;
+    }
+
+    .cards {
+        width: 100%;
+        text-align: -webkit-center;
+        display: block;
+        justify-content: center;
+    }
+
+    #card1 {
+        background-color: white;
+        width: 92%;
+        text-align: center;
+        border-bottom-left-radius: 15px 15px;
+        border-bottom-right-radius: 15px 15px;
+        margin-top: 8%;
+        margin-right: 0;
+        height: 598px;
+    }
+
+    #card2 .txt2 h1 {
+        font-size: 15px;
+        text-align: center;
+        border: 2px solid #FCC045;
+        border-radius: 25px;
+        text-align: -webkit-center;
+        color: #FCC045;
+        padding: 0px;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+
+    .txt2 h1 {
+        font-size: 15px;
+        text-align: center;
+        border: 2px solid #8E77E9;
+        border-radius: 25px;
+        text-align: -webkit-center;
+        color: #8E77E9;
+        padding: 0px;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    #card2 {
+        background-color: white;
+        width: 92%;
+        text-align: center;
+        border-bottom-left-radius: 15px 15px;
+        border-bottom-right-radius: 15px 15px;
+        margin-top: 8%;
+        margin-left: 0;
+        height: 598px;
+    }
+
+    .il {
+        height: 140px;
+        transform: rotateY(180deg);
+        margin-left: 1%;
+        margin-top: -20%;
+    }
+
+    #formtitle h1 {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+        margin-bottom: 0;
+    }
+
+    #formtitle h3 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: 100;
+        margin-top: 0;
+    }
+
+    #formulem {
+        margin-top: 55px;
+        text-align: center;
+    }
+
+    #formulem h1 {
+        color: #8E77E9;
+        background-color: white;
+        width: 70%;
+        margin: 0 auto;
+        padding: 11px;
+        border-radius: 43px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    form {
+        max-width: 84%;
+        margin: 20px auto;
+        /* padding: 20px; */
+        border-radius: 115px;
+        width: 100%;
+        padding-bottom: 300px;
+    }
+    input[type="text"], input[type="email"], input[type="tel"] {
+        width: 94%;
+        padding: 10px;
+        margin-bottom: 26px;
+        border: 1px solid #ccc;
+        border-radius: 55px;
+        background: none;
+    }
+    input[type="submit"] {
+        margin-top: 55px;
+        background-color: #8e77e9;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Avenir', sans-serif;
+        transition: 0.3s;
+    }
+    input[type="submit"]:hover {
+        background-color: #8e77e9;
+        margin-top: 55px;
+        background-color: #8e77e9;
+        color: white;
+        padding: 15px 25px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-family: 'Avenir', sans-serif;
+        transition: 0.3s;
+    }
+
+    .accept-buttons {
+        color: white;
+        justify-content: center;
+        margin-top: 0%;
+    }
+    
+    input[type="text"]::placeholder,
+    input[type="email"]::placeholder,
+    input[type="tel"]::placeholder {
+        color: white;
+    }
+    
+    
+    label {
+        text-align: left;
+    }
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Espace</title>
+    <link rel="stylesheet" href="css/space.css">
+</head>
+<body>
+    <section id="home">
+        <div id="hello">
+            <h1>BONJOUR <strong>MICHELLE !</strong></h1>
+            <p>Tu es abonnée jusqu'au : <strong>25 MARS 2025</strong></p>
+            <div class="button-container">
+                <button class="btc2">Se désabonner</button>
+            </div>
+            <div class="arrow-container">
+                <img src="img/rarrow.svg" alt="Flèche vers le bas" style="width: 150px;">
+                <h1>VOS SERVICES</h1>
+                <div class="link-list" style="display: none;">
+                    <ul>
+                        <li><a href="#"><span>MY </span>COTATIONS</a></li>
+                        <li><a href="#"><span>MY </span>PRIVILÈGES</a></li>
+                        <li><a href="#"><span>MY </span>RESSOURCES</a></li>
+                        <li><a href="#"><span>MY </span>E-LEARNING</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="profile">
+            <div class="image-container">
+                <img id="userp" src="img/woman.jpg" alt="Demoiselle" class="image">
+                <div class="overlay">
+                    <button class="change-photo">Changer la photo</button>
+                </div>
+            </div>
+        </div>
+        <img class="logo" src="img/logo2.svg" alt="">
+        <div id="lnav">
+        </div>
+    </section>
+    
+    
+
+
+    <section id="cotation">
+        <div id="formulaire">
+            <h1><span>my</span>COTATION</h1>
+            <p>Posez toutes vos questions cotations à notre expert NGAP avec l'ordonnance anonymisée et le descriptif des actes réalisés.</p>
+        </div>
+        <form action="#" method="post">
+            <div class="form-group">
+                <input type="text" name="nom" placeholder="Nom" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="prenom" placeholder="Prénom" required>
+            </div>
+            <div class="form-group">
+                <input type="tel" name="telephone" placeholder="Téléphone" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="email" placeholder="E-mail" required>
+            </div>
+            <div class="form-group">
+                <textarea name="ma_question" placeholder="Ma question" required></textarea>
+            </div>
+            <label style="color: white;" for="file-upload" class="custom-file-upload">
+                Chargez ordonnance anonymisée
+                <input id="file-upload" type="file"/>
+            </label>
+            <button type="submit">Envoyer</button>
+        </form>
+
+
+
+        
+            <img id="fusee" src="img/fusee.svg" alt="">
+    </section>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/space.js"></script>
+</body>
+</html>
